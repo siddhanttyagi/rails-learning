@@ -1,0 +1,6 @@
+class ChangeCommenterColumnType < ActiveRecord::Migration[7.0]
+  def change
+    change_column :comments, :commenter, :integer
+  end
+end
+
